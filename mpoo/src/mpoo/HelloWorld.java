@@ -1,3 +1,4 @@
+package mpoo;
 import java.util.Date;
 import java.text.SimpleDateFormat;
 
@@ -17,6 +18,6 @@ public class HelloWorld extends Application {
 		}
 	}
 	public void imprimir() {
-		System.out.println(dataFormatada +" - " + "OlÃ¡ " + this.getNome() + ". VocÃª acabou de fazer seu primeiro Hello World em Java. ParabÃ©ns");
+		System.out.println(dataFormatada +" - " + "Olá " + this.getNome() + ". Você acabou de fazer seu primeiro Hello World em Java. Parabéns");
 	}
 }
